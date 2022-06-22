@@ -1,10 +1,11 @@
 # dev-test
 
-Project Setup
-This project is created using .NET Core API with Swagger as Front end.
-The purpose of the swagger doc is that the user can test the project using swagger.
+Project Setup:
+  This project is created using .NET Core API with Swagger as Front end.
+  The purpose of the swagger doc is that the user can test the project using swagger.
+  The code is in the **master** branch.
 
-the input data required is a json type format:
+the input data required is a **json** type format:
 
   {
     "place": "PLACE 0,0, NORTH",
