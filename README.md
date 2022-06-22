@@ -1,6 +1,18 @@
 # dev-test
 
-Instructions
+Project Setup
+This project is created using .NET Core API with Swagger as Front end.
+The purpose of the swagger doc is that the user can test the project using swagger.
+
+the input data required is a json type format:
+{
+  "place": "PLACE 0,0, NORTH",
+  "step": ["MOVE","MOVE","RIGHT","MOVE"],
+  "report": "REPORT"
+}
+After the prerequisites are given, the endpoint will simulate and should return a proper message.
+
+Instructions:
 
 You are required to simulate a toy robot moving on a square tabletop, of dimensions 5 units x 5 units.
 There are no other obstructions on the table surface. The robot is free to roam around the surface of the table, but must be prevented from falling to destruction.
@@ -27,3 +39,5 @@ RIGHT
 Instructs the robot to rotate 90° clockwise.
 REPORT
 Outputs the robot's current location on the tabletop and the direction it is facing.
+
+
